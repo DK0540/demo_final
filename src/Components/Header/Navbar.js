@@ -17,7 +17,21 @@ const Navbar = () => {
     <div>
       <AppBar className={classes.appbar} position="static">
         <Toolbar className={classes.toolbar}>
-          <Typography variant="h6" className={classes.logo}></Typography>
+          <div>
+            <a
+              style={{ textDecoration: "none", color: "white" }}
+              href="https://harmonious-rugelach-d89f12.netlify.app/"
+            >
+              ◀️Back
+            </a>
+          </div>
+          <Typography
+            style={{ marginLeft: "7%", fontSize: "26px", fontWeight: "bold" }}
+            variant="h6"
+            className={classes.logo}
+          >
+            Dashboard
+          </Typography>
 
           <Hidden smDown>
             <Box style={{ display: "flex" }}>
