@@ -1,0 +1,18 @@
+.chart-heading{
+    color: rgb(71, 71, 71);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 13px;
+   
+   }
+
+.piechart{
+    margin-left:81px;
+    margin-top: -46px;
+}
+
+
+   .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
